@@ -9,7 +9,7 @@ WebServer server(80);
 WiFiUDP udp;
 
 byte mac[6] = {0x34, 0x5A, 0x60, 0x4F, 0x9A, 0x02};  // MAC del PC a encender por WOL
-IPAddress ipPC(192, 168, 1, 100);                    // IP de tu PC
+IPAddress ipPC(192, 168, 1, 151);                    // IP de tu PC
 IPAddress broadcastIP(192, 168, 1, 255);             // IP de broadcast
 int PUERTO_FLASK = 5000;
 String tokenPC = "123456";
