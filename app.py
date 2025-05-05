@@ -5,9 +5,9 @@ import os
 app = Flask(__name__)
 
 # === CONFIGURACIÓN ===
-BOT_TOKEN = os.environ.get("BOT_TOKEN") or "7977748615:AAGyniD4kL_C_a2iaGp1CmTJZdabMmjGkwE"
-CHAT_ID_AUTORIZADO = os.environ.get("CHAT_ID_AUTORIZADO") or "1176658539"
-ESP32_IP = os.environ.get("ESP32_IP") or "http://192.168.18.252"  
+BOT_TOKEN = os.environ.get("BOT_TOKEN") 
+CHAT_ID_AUTORIZADO = os.environ.get("CHAT_ID_AUTORIZADO") 
+ESP32_IP = os.environ.get("ESP32_IP") 
 
 # === FUNCIÓN PARA ENVIAR MENSAJE A TELEGRAM ===
 def send_telegram_message(text):
